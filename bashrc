@@ -111,3 +111,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+## ---------- STARTX (thus i3wm)
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx

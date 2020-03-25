@@ -1,0 +1,68 @@
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 410,
+       "width": 736,
+       "x": 0,
+       "y": 0
+    },
+    "name": "julian@phobos: ~",
+    "percent": 0.5,
+    "swallows": [
+       {
+          "window_role": "^t1$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 410,
+               "width": 736,
+               "x": 0,
+               "y": 0
+            },
+            "name": "julian@phobos: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "window_role": "^t2$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 410,
+               "width": 736,
+               "x": 0,
+               "y": 0
+            },
+            "name": "julian@phobos: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+                  "window_role": "^t3$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
