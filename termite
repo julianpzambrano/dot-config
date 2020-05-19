@@ -1,0 +1,50 @@
+[options]
+#audible_bell = false
+#mouse_autohide = false
+#allow_bold = false
+dynamic_title = true
+#clickable_url = true
+scrollback_lines = 10000
+#search_wrap = true
+#cursor_blink = system
+#browser = firefox
+
+#font = Monoid Regular 12px
+font = Anonymous Pro Regular 16px
+#font = Ubuntu Mono Regular 16px
+#font = Fira Code Regular 13px
+
+[colors]
+# based on "breeze dark" https://github.com/mrWinston/kde-breeze-dark-ui theme:
+foreground = #bdc3c7
+foreground_bold = #eff0f1
+cursor = #eff0f1
+cursor_foreground = #b893ca
+background  = #232629
+# Black, Gray
+#color0  = #232629
+#color8  = #57565f
+# Red, Light
+color1  = #f44747
+color9  = #d16969
+# Green, Light
+color2  = #608b4E
+color10 = #b5cea8
+# Orange, Yellow
+#color3  = #79241f
+#color11 = #79241f
+# Blue, Light
+color4  = #264f78
+color12 = #569cd6
+# Magenta
+#color5  = #8a44ad
+color13 = #deb1ec
+# Cyan
+color6  = #21c1ee
+color14 = #9cdcfe
+#Silver, White
+color7  = #575b5f
+color15 = #bdc3c7
+
+[hints]
+
