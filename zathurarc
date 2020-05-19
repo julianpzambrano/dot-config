@@ -1,0 +1,8 @@
+# style
+set font "Anonymous Pro 11"
+set default-bg "#232629"
+set default-fg "#EFF0F1"
+
+# settings
+set selection-clipboard clipboard
+set adjust-open "width"
