@@ -1,0 +1,6 @@
+[submodule "dot_config/spaceship-prompt"]
+	path = dot_config/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt.git
+[submodule "dot_config/zsh-syntax-highlighting"]
+	path = dot_config/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git

@@ -1,0 +1,2 @@
+ sshuttle 0/0 --dns --remote=julian_pinilla@vpn.ciholo.com --exclude=190.144.23.154 --ssh-cmd="ssh -i .ssh/julian_pinilla_at_cihologramas.key"
+ < /dev/urandom tr -dc '#$%^&*_+-='A-Z-a-z-0-9 | head -c${1:-16};echo;

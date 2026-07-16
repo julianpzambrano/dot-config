@@ -1,0 +1,20 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=5000
+setopt autocd
+unsetopt extendedglob
+setopt HIST_IGNORE_SPACE
+bindkey -v
+# End of lines configured by zsh-newuser-install
+
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/julian/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# add custom prompt from spaceship-prompt
+source "$HOME/.config/spaceship-prompt/spaceship.zsh"
+# add zsh-syntax-highlighting from zsh-users git
+source "$HOME/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
