@@ -7,3 +7,6 @@
 [submodule "dot_config/alacritty/catppuccin-themes"]
 	path = dot_config/alacritty/catppuccin-themes
 	url = https://github.com/catppuccin/alacritty.git
+[submodule "dot_config/sway/catppuccin-themes"]
+	path = dot_config/sway/catppuccin-themes
+	url = https://github.com/catppuccin/i3.git
