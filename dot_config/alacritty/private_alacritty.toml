@@ -1,0 +1,20 @@
+
+[window]
+opacity = 0.85
+decorations = "None"
+
+[font]
+normal = { family = "Anonymous Pro", style = "Regular" }
+bold = { family = "Anonymous Pro", style = "Bold" }
+italic = { family = "Anonymous Pro", style = "Italic" }
+bold_italic = { family = "Anonymous Pro", style = "Bold Italic" }
+size = 12
+
+[cursor]
+style = {shape = "Beam", blinking = "Always" }
+vi_mode_style = {shape = "Block", blinking = "Off" }
+
+[general]
+import = [
+  "~/.config/alacritty/catppuccin-themes/catppuccin-frappe.toml"
+]

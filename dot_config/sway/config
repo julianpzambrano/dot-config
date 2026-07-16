@@ -243,18 +243,19 @@ default_border none
     workspace 8 output HDMI-A-3
     workspace 9 output HDMI-A-1
     workspace 10 output HDMI-A-3
+
 #
 # Gaps:
 #
-gaps inner 5
 smart_gaps off
-
-
-include config.d/*
+gaps inner 3
+gaps outer 3
+default_border pixel 3
 
 #
 # Look:
 #
+include catppuccin-themes/themes/catppuccin-frappe
 # target                 title     bg    text   indicator  border
 client.focused           $lavender $base $text  $rosewater $lavender
 client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
@@ -263,6 +264,4 @@ client.urgent            $peach    $base $peach $overlay0  $peach
 client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
 smart_borders on
-gaps inner 3
-gaps outer 3
-default_border pixel 3
+
