@@ -1,0 +1,43 @@
+#  openssl s_client -starttls imap -connect webmail.domain.com:143
+# ==== IMAP (incoming mail) ====
+set imap_user = "user@domain.com"
+#set imap_pass = "****************"
+set imap_pass = `gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.mutt_pass.gpg`
+#set imap_pass = `secret-tool lookup mutt account user@domain.com`
+# STARTTLS on port 143
+set folder = "imap://webmail.domain.com:143"
+#set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+#set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+#set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
+set spoolfile = "+INBOX"
+set record="+Sent"
+set postponed="+Drafts"
+#set trash="+Junk"
+set trash="Trash"
+set ssl_starttls = yes
+set ssl_force_tls = yes
+#set header_cache = "~/.mutt/cache/headers"
+#set message_cachedir = "~/.mutt/cache/bodies"
+#set certificate_file = "~/.mutt/certificates"
+#  openssl s_client -starttls smtp -connect webmail.domain.com:587
+# ==== SMTP (outgoing mail) ====
+set smtp_url = "smtp://user@domain.com@webmail.domain.com:587/"
+#set smtp_pass = "****************"
+#set smtp_pass = $imap_pass
+set smtp_pass = `gpg --quiet --for-your-eyes-only --no-tty --decrypt ~/.mutt_pass.gpg`
+#set smtp_pass = `secret-tool lookup mutt account user@domain.com`
+# ==== Identity ====
+set from = "user@domain.com"
+set realname = "Name Surname"
+set use_from = yes
+#unset use_domain        # because joe@localhost is just embarrassing
+# ==== General mutt behavior ====
+set move = no
+set imap_check_subscribed = yes
+set sort = 'threads'
+set editor = "vim"
+#set charset = UTF-8     # value of $LANG; also fallback for send_charset
+#set edit_headers = yes  # See the headers when editing
+set signature = "~/.mutt/html_footer.html"
+# ==== General mutt behavior ====
+source ~/.mutt/colors # Define colors. 

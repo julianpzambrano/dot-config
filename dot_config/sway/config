@@ -117,6 +117,17 @@ exec swayidle -w \
 #
 # Workspaces:
 #
+    workspace 1 output HDMI-A-1
+    workspace 2 output HDMI-A-3
+    workspace 3 output HDMI-A-1    
+    workspace 4 output HDMI-A-3
+    workspace 5 output HDMI-A-1
+    workspace 6 output HDMI-A-3
+    workspace 7 output HDMI-A-1
+    workspace 8 output HDMI-A-3
+    workspace 9 output HDMI-A-1
+    workspace 10 output HDMI-A-3
+
     # Switch to workspace
     bindsym $mod+1 workspace number 1
     bindsym $mod+2 workspace number 2
@@ -145,10 +156,10 @@ exec swayidle -w \
 # Layout stuff:
 #
     # You can "split" the current object of your focus with
-    # $mod+b or $mod+v, for horizontal and vertical splits
+    # $mod+s or $mod+v, for horizontal and vertical splits
     # respectively.
-    bindsym $mod+b splith
-    bindsym $mod+v splitv
+    bindsym $mod+Shift+s splith
+    bindsym $mod+Shift+v splitv
 
     # Switch the current container between different layout styles
     bindsym $mod+s layout stacking
@@ -230,19 +241,6 @@ bindsym $mod+r mode "resize"
 #
 # Get rid of borders and titlebars
 default_border none
-#
-# Workspaces output location:
-#
-    workspace 1 output HDMI-A-1
-    workspace 2 output HDMI-A-3
-    workspace 3 output HDMI-A-1    
-    workspace 4 output HDMI-A-3
-    workspace 5 output HDMI-A-1
-    workspace 6 output HDMI-A-3
-    workspace 7 output HDMI-A-1
-    workspace 8 output HDMI-A-3
-    workspace 9 output HDMI-A-1
-    workspace 10 output HDMI-A-3
 
 #
 # Gaps:
