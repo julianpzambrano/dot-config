@@ -10,3 +10,6 @@
 [submodule "dot_config/sway/catppuccin-themes"]
 	path = dot_config/sway/catppuccin-themes
 	url = https://github.com/catppuccin/i3.git
+[submodule "dot_vim/pack/vendor/start/catppuccin"]
+	path = dot_vim/pack/vendor/start/catppuccin
+	url = https://github.com/catppuccin/vim.git
